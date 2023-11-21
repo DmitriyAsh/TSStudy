@@ -4,7 +4,7 @@ const App = () => {
     return (
         <div>
             <Card
-                onClick={() => console.log("click")}
+                onClick={(num) => console.log("click", num)}
                 variant={CardVariant.outlined}
                 width='200px'
                 height='200px'
